@@ -1,0 +1,54 @@
+body
+	{
+	background-color: bisque;
+	}
+
+.container 
+	{
+	width: 90%; 
+	margin-left: auto;
+	margin-right: auto;
+	}
+			
+img	
+	{
+	max-width: 90%;
+	}
+
+figure
+	{
+	width: 44%;
+	min-width: 190px;
+	float: left;
+	}
+
+@media screen and (max-width: 1000px) {
+	
+body
+	{
+	background-color: bisque;
+	}
+	
+}
+
+
+@media only screen and (max-width : 480px) {
+	
+body
+	{
+	background-color: red;
+	}
+		
+}
+
+
+@media only screen and (max-width : 320px) {
+	
+body
+	{
+	background-color: green;
+	}
+
+}
+
+
